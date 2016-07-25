@@ -1,0 +1,19 @@
+{
+  "name": "your-daily-doge",
+  "version": "1.0.0",
+  "description": "generates random doge facts",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpaolosese/your-daily-doge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpaolosese/your-daily-doge/issues"
+  },
+  "homepage": "https://github.com/jpaolosese/your-daily-doge#readme"
+}
