@@ -1,6 +1,8 @@
-// require express
+// dependencies
 var express = require('express');
 var app = express();
+
+var controllers = require('./controllers');
 
 // serve static files from public folder
 app.use(express.static(__dirname + '/public'));
@@ -9,6 +11,9 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', function homepage (req, res) {
   res.sendFile(__dirname + '/views/index.html');
 });
+
+//JSON endpoint
+app.get('/api', controllers.api.index);
 
 // server
 app.listen(process.env.PORT || 3000, function () {
