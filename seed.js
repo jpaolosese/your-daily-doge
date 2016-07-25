@@ -26,16 +26,6 @@ var shibaFacts = [
   }
 
 ];
-
-// The Shiba Inu can, at times, be a total piece of shit.
-// http://i.imgur.com/mlGlJbq.gifv
-//
-// Bodhi is a Shiba clothing model from New York.
-// http://i.imgur.com/QZPkMCU.jpg
-//
-// Shibas are virtually indistinguishable from marshmallows.
-// http://i.imgur.com/MWuRMm6.png
-//
 // Shibas grow well in sandy soils.
 // http://i.imgur.com/r4hCn41.jpg
 //

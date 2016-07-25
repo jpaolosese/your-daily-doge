@@ -24,7 +24,25 @@ var shibaFacts = [
     text: "The anime Shiba Inuko-san is about a 14 year old girl who just happens to look like an upright walking Shiba Inu.",
     image: "http://i.imgur.com/puLhV3Y.gif"
   },
-
+  {
+    factIndex: 5,
+    text: "The Shiba Inu can, at times, be a total piece of shit.",
+    image: "http://i.imgur.com/mlGlJbq.gifv"
+  },
+  {
+    factIndex: 6,
+    text: "Bodhi is a Shiba clothing model from New York.",
+    image: "http://i.imgur.com/QZPkMCU.jpg"
+  },
+  {
+    factIndex: 7,
+    text: "Shibas are virtually indistinguishable from marshmallows.",
+    image: "http://i.imgur.com/MWuRMm6.png"
+  },
+  {
+    factIndex: 8,
+    text: 
+  }
 ];
 
 $(document).ready(function() {
