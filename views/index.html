@@ -24,15 +24,26 @@
         <h1>Your Daily Doge!</h1>
       </div>
     </div>
-    <div class="container">
+    <div class="container" id="dogefact">
+      <script id="dogefact-template" type="text/x-handlebars-template">
+        <div class="panel panel-default">
+          <div class="row">
+            <div class="col-md-10">
+              <div class="col-md-4" id="fact-text">
+                {{text}}
+              </div>
+              <div class="col-md-4" id="fact-image">
+                <img src={{image}}>
+              </div>
+            </div>
+          </div>
+        </div>
+      </script>
       <div class="row">
-        <div class="col-md-10">
-          <div class="col-md-4" id="fact-text">
-            ka
-          </div>
-          <div class="col-md-4" id="fact-image">
-            BOOOM
-          </div>
+        <div class="col-md-2 center-block">
+          <button type="button" name="button">
+            Show a new fact!
+          </button>
         </div>
       </div>
     </div>
