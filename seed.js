@@ -1,9 +1,9 @@
 var shibaFacts = [
   {
-    text: "The Duke of Venice, known as the Doge di Venezia, was at times an actual Shiba Inu."
+    text: "The Duke of Venice, known as the Doge di Venezia, was at times an actual Shiba Inu.",
     image: "http://i.imgur.com/tXWEmL8.jpg"
   }
-]
+];
 // The Shiba Inu arrived on Earth in the 4th century CE.
 // http://i.imgur.com/wp9Qr8V.gif
 //
