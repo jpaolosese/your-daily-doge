@@ -9,9 +9,10 @@ $(document).ready(function() {
 });
 
 function displayFact(fact) {
-  var dogeFactHtml = $("#dogefact-template").html(),
-      dogeFactTemplate = Handlebars.compile(dogeFactHtml),
-      html = dogeFactTemplate(fact);
+  var dogeFactHtml = $("#dogefact-template").html();
+  console.log(dogeFactHtml);
+  var dogeFactTemplate = Handlebars.compile(dogeFactHtml);
+  var html = dogeFactTemplate(fact);
   $("#dogefact").html(html);
 }
 
