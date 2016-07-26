@@ -26,7 +26,7 @@ function replaceFact(fact) {
 function handleClick(event) {
   event.preventDefault();
   $.get('/api/facts').success(function (shibeFacts) {
-    replaceContentInContainer($("#dogefact-parent"), shibeFacts[Math.round(Math.random() * (shibeFacts.length - 1))])
+    displayFact(shibeFacts[Math.round(Math.random() * (shibeFacts.length - 1))]);
   });
 }
 
