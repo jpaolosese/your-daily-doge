@@ -25,7 +25,6 @@ function replaceFact(fact) {
 
 function handleClick(event) {
   event.preventDefault();
-  console.log("wow such click " + event);
   $.get('/api/facts').success(function (shibeFacts) {
     replaceFact(JSON.stringify(shibeFacts[Math.round(Math.random() * (shibeFacts.length - 1))]));
   });
