@@ -6,7 +6,6 @@ Your Daily Doge! is a random facetious Doge fact generator.
 
 ## Technologies Used
 
-*What technologies did you use to develop this project? (bullet points)*
 This project uses:
 + Express
 + Node.js
@@ -22,7 +21,6 @@ This project features a GET method for a single Doge fact.
 
 ## Planned Features
 
-*What changes would you make to your project if you continue to work on it? (bullet points)*
 Seeing as this was done in the space of 24 hours, if I were to refactor this project I would:
 + Create more RESTful routes with CRUD
 + Create a comments section so users can comment on facts
