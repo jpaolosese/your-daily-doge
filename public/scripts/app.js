@@ -10,18 +10,18 @@ $(document).ready(function() {
 
 function displayFact(fact) {
   var dogeFactHtml = $("#dogefact-template").html(),
-  var dogeFactTemplate = Handlebars.compile(dogeFactHtml);
+      dogeFactTemplate = Handlebars.compile(dogeFactHtml);
   var html = dogeFactTemplate(fact);
   $("#dogefact").html(html);
 }
 
-function replaceFact(fact) {
-  var dogeFactHtml = $("#dogefact-template").text($("#dogefact-template").html());
-  var dogeFactTemplate = Handlebars.compile(dogeFactHtml);
-  var html = dogeFactTemplate(fact);
-  $("#dogefact").empty();
-  $("#dogefact").html(html);
-}
+// function replaceFact(fact) {
+//   var dogeFactHtml = $("#dogefact-template").text($("#dogefact-template").html());
+//   var dogeFactTemplate = Handlebars.compile(dogeFactHtml);
+//   var html = dogeFactTemplate(fact);
+//   $("#dogefact").empty();
+//   $("#dogefact").html(html);
+// }
 
 function handleClick(event) {
   event.preventDefault();
