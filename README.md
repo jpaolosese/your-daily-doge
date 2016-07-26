@@ -25,7 +25,7 @@ Seeing as this was done in the space of 24 hours, if I were to refactor this pro
 + Create more RESTful routes with CRUD
 + Create a comments section so users can comment on facts
 + Create Auth so registered users can have unique personalized usernames
-+ Eventually, make this a quasi-wiki style fact compendium.
++ Eventually, make this a quasi-wiki style fact compendium where registered users can add and edit facts and images.
 
 ## Preview
 ![Screenshot](/public/screenshot.PNG)
