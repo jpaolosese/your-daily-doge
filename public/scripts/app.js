@@ -10,8 +10,8 @@ $(document).ready(function() {
 
 function displayFact(fact) {
   var dogeFactHtml = $("#dogefact-template").html(),
-  var dogeFactTemplate = Handlebars.compile(dogeFactHtml),
-  var html = dogeFactTemplate(fact);
+      dogeFactTemplate = Handlebars.compile(dogeFactHtml),
+      html = dogeFactTemplate(fact);
   $("#dogefact").html(html);
 }
 
