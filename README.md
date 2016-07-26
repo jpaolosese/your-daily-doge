@@ -1,8 +1,8 @@
-# your-daily-doge# App Name
+# Your Daily Doge
 
 Your Daily Doge! is a random facetious Doge fact generator.
 
-[Link to project hosted on Heroku](https://whispering-atoll-22748.herokuapp.com/)
+[Your Daily Doge! on Heroku](https://whispering-atoll-22748.herokuapp.com/)
 
 ## Technologies Used
 
