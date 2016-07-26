@@ -4,4 +4,9 @@ body {
 
 .jumbotron {
   background-color: #FCE84E;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h2 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
