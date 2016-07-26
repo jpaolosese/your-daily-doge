@@ -12,8 +12,10 @@ app.get('/', function homepage (req, res) {
   res.sendFile(__dirname + '/views/index.html');
 });
 
-//JSON endpoint
+//JSON endpoints
 app.get('/api', controllers.api.index);
+
+app.get('/api/facts', controllers.facts.index);
 
 // server
 app.listen(process.env.PORT || 3000, function () {
