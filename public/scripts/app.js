@@ -9,7 +9,7 @@ $(document).ready(function() {
 });
 
 function displayFact(fact) {
-  var dogeFactHtml = $("#dogefact-template").html();
+  var dogeFactHtml = $("#dogefact-template");
   console.log(dogeFactHtml);
   dogeFactHtml = dogeFactHtml.text();
   var dogeFactTemplate = Handlebars.compile(dogeFactHtml);
