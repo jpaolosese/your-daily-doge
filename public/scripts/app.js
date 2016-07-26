@@ -11,7 +11,6 @@ $(document).ready(function() {
 function displayFact(fact) {
   var dogeFactHtml = $("#dogefact-template");
   console.log(dogeFactHtml);
-  dogeFactHtml = dogeFactHtml.text();
   var dogeFactTemplate = Handlebars.compile(dogeFactHtml);
   var html = dogeFactTemplate(fact);
   $("#dogefact").html(html);
