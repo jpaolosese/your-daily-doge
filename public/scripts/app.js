@@ -27,7 +27,7 @@ var shibaFacts = [
   {
     factIndex: 5,
     text: "The Shiba Inu can, at times, be a total piece of shit.",
-    image: "http://i.imgur.com/mlGlJbq.gifv"
+    image: "http://i.imgur.com/mlGlJbq.gif"
   },
   {
     factIndex: 6,
@@ -41,13 +41,19 @@ var shibaFacts = [
   },
   {
     factIndex: 8,
-    text: 
+    text: "Shibas grow well in sandy soils.",
+    image: "http://i.imgur.com/r4hCn41.jpg"
+  }
+  {
+    factIndex: 9,
+    text: "Brought to you by The Doge Times.",
+    image: "http://i.imgur.com/uYz0AvW.jpg"
   }
 ];
 
 $(document).ready(function() {
   console.log("app.js loaded and ready!");
-  displayFact(shibaFacts[Math.round(Math.random() * (shibaFacts.length-1))]);
+  displayFact(shibaFacts[Math.round(Math.random() * (shibaFacts.length - 1))]);
 });
 
 function displayFact(fact) {

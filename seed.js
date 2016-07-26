@@ -6,12 +6,12 @@ var shibaFacts = [
   }
   {
     factIndex: 1,
-    text: "The Shiba Inu arrived on Earth in the 4th century CE."
+    text: "The Shiba Inu arrived on Earth in the 4th century CE.",
     image: "http://i.imgur.com/wp9Qr8V.gif"
   }
   {
     factIndex: 2,
-    text: "Shiba Inu is Japanese for brushwood dog."
+    text: "Shiba Inu is Japanese for brushwood dog.",
     image: "http://66.media.tumblr.com/tumblr_lqg2t1NYuK1qf9be8o1_500.jpg"
   }
   {
@@ -26,10 +26,8 @@ var shibaFacts = [
   }
 
 ];
-// Shibas grow well in sandy soils.
-// http://i.imgur.com/r4hCn41.jpg
-//
-// A Shiba in Japan has made a career out of being a news anchor.
+
+// Brought to you by The Doge Times
 // http://imgur.com/uYz0AvW
 //
 // Shibas can be total assholes sometimes.
