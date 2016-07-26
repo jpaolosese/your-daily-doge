@@ -1,4 +1,4 @@
-# your-daily-doge# App Name
+# Your Daily Doge
 
 Your Daily Doge! is a random facetious Doge fact generator.
 
