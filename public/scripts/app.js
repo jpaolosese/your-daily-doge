@@ -26,6 +26,11 @@ function replaceFact(fact) {
 function handleClick(event) {
   event.preventDefault();
   $.get('/api/facts').success(function (shibeFacts) {
-    replaceFact(shibeFacts[Math.round(Math.random() * (shibeFacts.length - 1))]);
+    replaceContentInContainer($("#dogefact-parent"), shibeFacts[Math.round(Math.random() * (shibeFacts.length - 1))])
   });
+}
+
+function replaceContentInContainer(id, content) {
+  var container = document.getElementById(id);
+  container.innerHTML = content;
 }
