@@ -9,6 +9,11 @@ function index(req, res) {
   });
 }
 
+// TODO: Please build out all controller actions for Facts, even if thery're not available to the user
+// function show(req, res) etc...
+// function edit(req, res) etc...
+// function destroy(req, res) etc...
+
 module.exports = {
   index: index
 };

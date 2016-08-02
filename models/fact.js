@@ -1,7 +1,7 @@
 var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 
-var Comment = require('./comment')
+var Comment = require('./comment');
 
 var FactSchema = new Schema({
   factIndex: Number,
