@@ -16,16 +16,15 @@ This project uses:
 
 ## Existing Features
 
-This project features a GET method for a single Doge fact.
+This project features a GET method for a single Doge fact, a GET method for retrieving all comments on a Doge fact, and a POST method
 
 
 ## Planned Features
 
-Seeing as this was done in the space of 24 hours, if I were to refactor this project I would:
-+ Create more RESTful routes with CRUD
-+ Create a comments section so users can comment on facts
-+ Create Auth so registered users can have unique personalized usernames
-+ Eventually, make this a quasi-wiki style fact compendium where registered users can add and edit facts and images.
+If I were to refactor this, I would:
++ Create proper Auth for users
++ Users with Auth can POST new facts and PUT updated facts.
++ Enhance styling for a visually appealing user interface.
 
 ## Preview
-![Screenshot](/public/screenshot.PNG)
+![Screenshot](http://i.imgur.com/x6Vj8G4.png)
