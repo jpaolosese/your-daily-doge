@@ -12,6 +12,7 @@ This project uses:
 + Mongoose
 + Bootstrap
 + Handlebars
++ jQuery
 
 
 ## Existing Features
