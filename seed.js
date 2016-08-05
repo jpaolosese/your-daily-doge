@@ -63,6 +63,13 @@ var shibaFacts = [
   }
 ];
 
+var sampleComments = [];
+sampleComments.push({ commentText: 'Wow such comment' });
+
+shibaFacts.forEach(function (fact) {
+  fact.comments = sampleComments;
+});
+
 db.Fact.remove({}, function(err, facts){
   db.Fact.create(shibaFacts, function(err, facts){
     if (err) { return console.log('ERROR', err); }

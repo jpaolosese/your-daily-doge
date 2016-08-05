@@ -19,15 +19,18 @@
 
   </head>
   <body>
+
     <div class="jumbotron">
       <div class="container">
         <h1>Your Daily Doge!</h1>
       </div>
     </div>
+
     <div class="container contain-body">
       <div class="panel panel-default">
         <div class="row" id="dogefact-parent">
           <div class="col-md-10" id="dogefact">
+
             <script id="dogefact-template" type="text/x-handlebars-template">
               <div class="col-md-4" id="fact-text">
                 <h2>Doge Fact #{{factIndex}}</h2>
@@ -37,11 +40,13 @@
                 <img src={{image}}>
               </div>
             </script>
+
           </div>
         </div>
       </div>
     </div>
-    <!-- <div class="container">
+
+    <div class="container">
       <div class="row">
         <div class="col-md-2 center-block">
           <button type="button" name="button" id="new-fact">
@@ -49,6 +54,37 @@
           </button>
         </div>
       </div>
-    </div> -->
+    </div>
+
+
+    <div class="container">
+
+      <form class="col-md-10" id="comment-submit" action="/api/facts" method="post">
+        <textarea name="commentText" id="commentText">Wow, such type, very comment</textarea>
+        <button class="btn btn-primary" name="button" id="submitButton">Submit</button>
+      </form>
+
+      <div id="comments">
+
+        <script id="comment-template" type="text/x-handlebars-template">
+          <div class="panel panel-default">
+            <div class="row">
+              <div class="col-md-10">
+                <ul class="list-group">
+                  <li>
+                    {{#each comments}}
+                    <h6>{{_id}} says:</h6>
+                    <p>{{commentText}}</p>
+                    {{/each}}
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </script>
+
+      </div>
+    </div>
+
   </body>
 </html>

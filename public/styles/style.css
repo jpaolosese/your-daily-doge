@@ -2,11 +2,11 @@ body {
   background-image: url(https://i.imgur.com/GFeP2CUr.jpg);
 }
 
-.jumbotron {
-  background-color: #FCE84E;
+h2 {
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-h2 {
+.jumbotron {
+  background-color: #FCE84E;
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
