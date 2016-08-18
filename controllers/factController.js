@@ -10,6 +10,7 @@ function index(req, res) {
   });
 }
 
+// TODO: Connect this endpoint to the front end
 // POST /api/facts
 function create(req, res) {
   db.Fact.create(req.body, function(error, createdFact) {
@@ -18,6 +19,7 @@ function create(req, res) {
   });
 }
 
+// TODO: Connect this endpoint to the front end
 // GET /api/facts/:factId
 function show(req, res) {
   db.Fact.findById(req.params.factId, function(error, foundFact) {
@@ -26,6 +28,9 @@ function show(req, res) {
   });
 }
 
+// TODO: Connect this endpoint to the front end, if you want
+// This one doesn't necessarily need to be connected if you want
+// to keep your data more secure and disallow visitors from modifying it
 // DELETE /api/facts/:factId
 function destroy(req, res) {
   db.Fact.findOneAndRemove({_id: req.params.factId}, function(error, foundFact) {
@@ -34,6 +39,9 @@ function destroy(req, res) {
   });
 }
 
+// TODO: Connect this endpoint to the front end, if you want
+// This one doesn't necessarily need to be connected if you want
+// to keep your data more secure and disallow visitors from modifying it
 // PUT /api/facts/:factId
 function update(req, res) {
   db.Fact.findById(req.params.albumId, function(error, foundFact) {

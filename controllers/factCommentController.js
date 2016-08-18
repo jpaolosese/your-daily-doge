@@ -19,6 +19,7 @@ function create(req, res) {
   });
 }
 
+// TODO: Connect this endpoint to the front end
 // DELETE /api/facts/:factId/comments/:commentId
 function destroy(req, res) {
   db.Fact.findById(req.params.factId, function(error, foundFact) {
@@ -37,6 +38,7 @@ function destroy(req, res) {
   });
 }
 
+// TODO: Connect this endpoint to the front end
 function update(req, res) {
   db.Fact.findById(req.params.factId, function(error, foundFact) {
     var foundCommentId = req.params.commentId;
